@@ -1,5 +1,5 @@
 web_profiler:
-    toolbar: true
+    toolbar: '%env(bool:WEB_PROFILER_TOOLBAR)%'
     intercept_redirects: false
 
 framework:
